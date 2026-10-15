@@ -35,3 +35,11 @@ LinkedIn could not be publicly fetched (no bypass attempted); link is exactly us
 ## Boundaries before migration
 
 No live DNS, hosting, Cloudflare, GitHub Pages, account profile, Kids or Control changes. Cloudflare target, apex cutover, old-path preservation, redirects, security headers, caching, rollback and release authority need concrete review before deployment. New production monitoring belongs to the designated Control Web sole writer.
+
+## Latest correction: retain all curated work
+
+The homepage remains identity-led and now directly includes all 8 original projects, all 27 original media entries, all 6 original video URLs, 5 publications and 11 related legacy links. WORKS-INVENTORY.md and content-inventory.json are the complete old→new audit. The previous statement that work is excluded from the production build is superseded: all portfolio images are now copied into dist, and the works section is an integral part of index.html. Video links are click-to-open with local posters; there are no autoplay embeds or external requests before clicking.
+
+The user explicitly removed the visible motion pause control. It has been removed. The original hero entrance now settles after approximately 1.8 seconds; layout buttons remain user-driven. Reduced-motion, low-power, offscreen and hidden-tab behavior remain supported.
+
+Exhibit paper, slides and the 46 MB video remain linked at their original live /explo/ paths. Preserve those resources during eventual migration; the downloadable video's size requires a suitable storage/serving plan. No live change was made.

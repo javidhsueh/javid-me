@@ -13,3 +13,7 @@ Node production build and JS syntax checks passed. Separate headless Chromium, w
 - Desktop/mobile full-page screenshots visually reviewed. Font CSS conversion issue caught during screenshot review and fixed before final screenshots.
 
 Evidence: task workspace output/playwright/desktop.png, mobile.png, hero.png, verification scripts. Not a full assistive technology audit. No production deployment tested or attempted.
+
+## Restored complete works + no pause control
+
+Latest isolated Chromium run verifies: 8 work cards, 27 media entries, 6 exactly matching original video URLs, 5 publications, 11 related links, all local images decoded successfully. No visible/hidden #motion control, no iframes, no external requests, no JS exceptions. Hero settles to static; reduced-motion starts static. Layout control works. No overflow at 320/390/768/1024/1440. Updated desktop/mobile screenshots replace previous candidate screenshots. Machine-readable output: output/playwright/works-qa.json.

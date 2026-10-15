@@ -3,8 +3,6 @@
   const svg = document.querySelector('#constellation');
   const edges = document.querySelector('#edges');
   const dots = document.querySelector('#dots');
-  const button = document.querySelector('#motion');
-  button.hidden = false;
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const lowPower = navigator.connection?.saveData || (navigator.hardwareConcurrency && navigator.hardwareConcurrency <= 2);
   const NS = 'http://www.w3.org/2000/svg';
@@ -40,18 +38,19 @@
     });
     lines.forEach(l=>{l.el.setAttribute('x1',l.a.x);l.el.setAttribute('y1',l.a.y);l.el.setAttribute('x2',l.b.x);l.el.setAttribute('y2',l.b.y);});
   }));
-  let paused = reduced.matches || lowPower, visible = true, frame = null, elapsed=0, previous=0;
-  function label(){button.textContent=paused?'Resume motion ▷':'Pause motion Ⅱ';button.setAttribute('aria-pressed',String(paused));}
+  // One short entrance settles to a static illustration; layout changes are user-driven.
+  let visible=true,frame=null,elapsed=0,previous=0;
+  let remaining=reduced.matches||lowPower?0:1800;
   function draw(time){
-    frame=null;if(paused||!visible||document.hidden){previous=0;return;}
-    if(previous)elapsed+=Math.min(time-previous,50);previous=time;
-    nodes.forEach(n=>{n.dx=n.x+Math.sin(elapsed*.00022+n.phase)*3;n.dy=n.y+Math.cos(elapsed*.00018+n.phase)*3;n.el.setAttribute('cx',n.dx);n.el.setAttribute('cy',n.dy);});
+    frame=null;if(remaining<=0||!visible||document.hidden||reduced.matches){previous=0;return;}
+    const delta=previous?Math.min(time-previous,50):0;previous=time;remaining-=delta;elapsed+=delta;
+    const settle=Math.max(0,remaining/1800);
+    nodes.forEach(n=>{n.dx=n.x+Math.sin(elapsed*.002+n.phase)*3*settle;n.dy=n.y+Math.cos(elapsed*.002+n.phase)*3*settle;n.el.setAttribute('cx',n.dx);n.el.setAttribute('cy',n.dy);});
     lines.forEach(l=>{l.el.setAttribute('x1',l.a.dx);l.el.setAttribute('y1',l.a.dy);l.el.setAttribute('x2',l.b.dx);l.el.setAttribute('y2',l.b.dy);});
-    frame=requestAnimationFrame(draw);
+    if(remaining>0)frame=requestAnimationFrame(draw);
   }
-  function sync(){label();if(!paused&&visible&&!document.hidden&&frame===null)frame=requestAnimationFrame(draw);}
-  button.addEventListener('click',()=>{paused=!paused;sync();});
-  reduced.addEventListener('change',()=>{paused=reduced.matches;sync();});
+  function sync(){if(remaining>0&&visible&&!document.hidden&&!reduced.matches&&frame===null)frame=requestAnimationFrame(draw);}
+  reduced.addEventListener('change',()=>{if(reduced.matches)remaining=0;sync();});
   document.addEventListener('visibilitychange',sync);
   new IntersectionObserver(([entry])=>{visible=entry.isIntersecting;sync();},{threshold:.05}).observe(svg);
   document.body.classList.add('ready');sync();

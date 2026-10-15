@@ -1,0 +1,608 @@
+{
+  "source": "master 03b4161 static/js/main.f80517b6.chunk.js.map -> resumeData.js",
+  "projects": [
+    {
+      "title": "Graph.gl",
+      "image": "thumbs/graphgl.png",
+      "items": [
+        {
+          "title": "Graph.gl",
+          "description": "is a React component for visualizing large graphs with several utility functions. With Graph.gl, users are enabled to build various type of graph/network applications with minimum efforts while having the capability to extend the existing styles and layouts.",
+          "image": "full/graphgl/1.png",
+          "type": "image"
+        },
+        {
+          "title": "Uber knowledge graph",
+          "description": "is aim to solve critical problems like fraud detection, criminal investigation, account abusing, long-hauling, driver onboarding, and even COVID-19 contact tracing.",
+          "image": "full/graphgl/2.gif",
+          "type": "image"
+        }
+      ],
+      "destination": "#graphgl"
+    },
+    {
+      "title": "Fostering Comparisons: Designing an Interactive Exhibit that Visualizes Marine Animal Behaviors",
+      "description": "Fostering Comparisons: Designing an Interactive Exhibit that Visualizes Marine Animal Behaviors",
+      "image": "thumbs/explo.png",
+      "url": "http://javid.me/explo",
+      "items": [
+        {
+          "title": "Fostering Comparisons: Designing an Interactive Exhibit that Visualizes Marine Animal Behaviors",
+          "description": "",
+          "image": "full/explo/1.jpg",
+          "type": "video",
+          "src": "https://www.youtube.com/watch?v=psGvUuYxEbM"
+        },
+        {
+          "title": "Tangible User interface",
+          "description": " - a tangible multi-touch screen to be interacted with the users.",
+          "image": "full/explo/1.jpg",
+          "type": "image"
+        },
+        {
+          "title": "Foster visual comparison and conversation",
+          "description": "",
+          "image": "full/explo/2.jpg",
+          "type": "image"
+        },
+        {
+          "title": "Legends for different visual representations",
+          "description": "",
+          "image": "full/explo/3.jpg",
+          "type": "image"
+        },
+        {
+          "title": "Migration speed between species",
+          "description": "",
+          "image": "full/explo/4.jpg",
+          "type": "image"
+        },
+        {
+          "title": "Physical species cards",
+          "description": "are used to toggle different visual representations for each species and provide more context about the behavior.",
+          "image": "full/explo/5.jpg",
+          "type": "image"
+        },
+        {
+          "title": "Hot spot for the placement of the species cards",
+          "description": "",
+          "image": "full/explo/6.jpg",
+          "type": "image"
+        }
+      ],
+      "destination": "#mapping-migrations"
+    },
+    {
+      "title": "Driving Behavior",
+      "image": "thumbs/motion.png",
+      "items": [
+        {
+          "title": "A study of using motion for comparative visualization.",
+          "description": "We have designed visualizations to represent driver behaviors. A series of user studies have been conducted to verify if adding motion to the static visualization can help users make comparisons and separate drastically different behaviors. ",
+          "image": "full/motion/1.png",
+          "type": "video",
+          "src": "https://www.youtube.com/watch?v=RmrlbKrVRAk"
+        },
+        {
+          "title": "Overview of several drivers' driving behavior",
+          "description": "",
+          "image": "full/motion/1.png",
+          "type": "image"
+        },
+        {
+          "title": "Side-by-side visual comparison of two drivers",
+          "description": "",
+          "image": "full/motion/2.png",
+          "type": "image"
+        },
+        {
+          "title": "Side-by-side visual comparison of two drivers with different sorting order of the trips",
+          "description": "",
+          "image": "full/motion/3.png",
+          "type": "image"
+        },
+        {
+          "title": "Compare behavior by days",
+          "description": "",
+          "image": "full/motion/4.png",
+          "type": "image"
+        }
+      ],
+      "destination": "#driving-behavior"
+    },
+    {
+      "title": "A Visual Approach for Name Disambiguation in Coauthorship Networks",
+      "image": "thumbs/name.png",
+      "items": [
+        {
+          "title": "A Visual Approach for Name Disambiguation in Coauthorship Networks",
+          "description": "",
+          "image": "full/name/1.png",
+          "type": "video",
+          "src": "https://www.youtube.com/watch?v=g1fcURD7Fh0"
+        },
+        {
+          "title": "UI for name disambiguation problem",
+          "description": "",
+          "image": "full/name/1.png",
+          "type": "image"
+        }
+      ],
+      "destination": "#name-disambiguation"
+    },
+    {
+      "title": "Comparative driving behavior visualization",
+      "image": "thumbs/drivingBehavior.png",
+      "items": [
+        {
+          "title": "Comparative driving behavior visualization.",
+          "description": "",
+          "image": "full/drivingBehavior/1.png",
+          "type": "video",
+          "src": "https://www.youtube.com/watch?v=gxUq2Q7e7Tg"
+        },
+        {
+          "title": "Driving behavior exploration UI.",
+          "description": "The goal of this project is to analyze driving behavior and visually compare them by using motion.",
+          "image": "full/drivingBehavior/1.png",
+          "type": "image"
+        }
+      ],
+      "destination": "#comparative-driving"
+    },
+    {
+      "title": "Marine animal migration visualization",
+      "image": "thumbs/topp.png",
+      "items": [
+        {
+          "title": "Explore and marine animal behavior by integrating environmental data.",
+          "description": "",
+          "image": "full/topp/1.png",
+          "type": "image"
+        }
+      ],
+      "destination": "#marine-migration"
+    },
+    {
+      "title": "Interactive visualization of Electric Vehicle Trajectory",
+      "image": "thumbs/trajectory.png",
+      "items": [
+        {
+          "title": "Interactive visualization of Electric Vehicle Trajectory",
+          "description": "",
+          "image": "full/trajectory/1.png",
+          "type": "video",
+          "src": "https://www.youtube.com/watch?v=fUmWuGor-Lw"
+        },
+        {
+          "title": "Oveview of all the trajectories",
+          "description": "",
+          "image": "full/trajectory/1.png",
+          "type": "image"
+        },
+        {
+          "title": "Visualize speed and fuel consumption",
+          "description": "",
+          "image": "full/trajectory/2.png",
+          "type": "image"
+        },
+        {
+          "title": "Visualize multi-dimension trajectory data with stop detection",
+          "description": "",
+          "image": "full/trajectory/3.png",
+          "type": "image"
+        }
+      ],
+      "destination": "#electric-vehicle"
+    },
+    {
+      "title": "Storyline visualization",
+      "image": "thumbs/storyline.png",
+      "items": [
+        {
+          "title": "An Efficient Framework for Generating Storyline Visualizations from Streaming Data",
+          "description": "",
+          "image": "full/storyline/1.png",
+          "type": "video",
+          "src": "https://vimeo.com/136210767"
+        },
+        {
+          "title": "Storyline visualization by D3.js",
+          "description": "",
+          "image": "full/storyline/1.png",
+          "type": "image"
+        },
+        {
+          "title": "Storyline visualization for Minecraft survival mode",
+          "description": "",
+          "image": "full/storyline/2.png",
+          "type": "image"
+        },
+        {
+          "title": "Storyline visualization for Enron dataset to detect groups",
+          "description": "",
+          "image": "full/storyline/3.png",
+          "type": "image"
+        }
+      ],
+      "destination": "#storyline"
+    }
+  ],
+  "media": [
+    {
+      "project": "Graph.gl",
+      "destination": "#graphgl",
+      "item_index": 1,
+      "title": "Graph.gl",
+      "description": "is a React component for visualizing large graphs with several utility functions. With Graph.gl, users are enabled to build various type of graph/network applications with minimum efforts while having the capability to extend the existing styles and layouts.",
+      "old_image": "/images/portfolio/full/graphgl/1.png",
+      "new_image": "assets/portfolio/full/graphgl/1.png",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Graph.gl",
+      "destination": "#graphgl",
+      "item_index": 2,
+      "title": "Uber knowledge graph",
+      "description": "is aim to solve critical problems like fraud detection, criminal investigation, account abusing, long-hauling, driver onboarding, and even COVID-19 contact tracing.",
+      "old_image": "/images/portfolio/full/graphgl/2.gif",
+      "new_image": "assets/portfolio/full/graphgl/2.gif",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Fostering Comparisons: Designing an Interactive Exhibit that Visualizes Marine Animal Behaviors",
+      "destination": "#mapping-migrations",
+      "item_index": 1,
+      "title": "Fostering Comparisons: Designing an Interactive Exhibit that Visualizes Marine Animal Behaviors",
+      "description": "",
+      "old_image": "/images/portfolio/full/explo/1.jpg",
+      "new_image": "assets/portfolio/full/explo/1.jpg",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=psGvUuYxEbM"
+    },
+    {
+      "project": "Fostering Comparisons: Designing an Interactive Exhibit that Visualizes Marine Animal Behaviors",
+      "destination": "#mapping-migrations",
+      "item_index": 2,
+      "title": "Tangible User interface",
+      "description": " - a tangible multi-touch screen to be interacted with the users.",
+      "old_image": "/images/portfolio/full/explo/1.jpg",
+      "new_image": "assets/portfolio/full/explo/1.jpg",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Fostering Comparisons: Designing an Interactive Exhibit that Visualizes Marine Animal Behaviors",
+      "destination": "#mapping-migrations",
+      "item_index": 3,
+      "title": "Foster visual comparison and conversation",
+      "description": "",
+      "old_image": "/images/portfolio/full/explo/2.jpg",
+      "new_image": "assets/portfolio/full/explo/2.jpg",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Fostering Comparisons: Designing an Interactive Exhibit that Visualizes Marine Animal Behaviors",
+      "destination": "#mapping-migrations",
+      "item_index": 4,
+      "title": "Legends for different visual representations",
+      "description": "",
+      "old_image": "/images/portfolio/full/explo/3.jpg",
+      "new_image": "assets/portfolio/full/explo/3.jpg",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Fostering Comparisons: Designing an Interactive Exhibit that Visualizes Marine Animal Behaviors",
+      "destination": "#mapping-migrations",
+      "item_index": 5,
+      "title": "Migration speed between species",
+      "description": "",
+      "old_image": "/images/portfolio/full/explo/4.jpg",
+      "new_image": "assets/portfolio/full/explo/4.jpg",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Fostering Comparisons: Designing an Interactive Exhibit that Visualizes Marine Animal Behaviors",
+      "destination": "#mapping-migrations",
+      "item_index": 6,
+      "title": "Physical species cards",
+      "description": "are used to toggle different visual representations for each species and provide more context about the behavior.",
+      "old_image": "/images/portfolio/full/explo/5.jpg",
+      "new_image": "assets/portfolio/full/explo/5.jpg",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Fostering Comparisons: Designing an Interactive Exhibit that Visualizes Marine Animal Behaviors",
+      "destination": "#mapping-migrations",
+      "item_index": 7,
+      "title": "Hot spot for the placement of the species cards",
+      "description": "",
+      "old_image": "/images/portfolio/full/explo/6.jpg",
+      "new_image": "assets/portfolio/full/explo/6.jpg",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Driving Behavior",
+      "destination": "#driving-behavior",
+      "item_index": 1,
+      "title": "A study of using motion for comparative visualization.",
+      "description": "We have designed visualizations to represent driver behaviors. A series of user studies have been conducted to verify if adding motion to the static visualization can help users make comparisons and separate drastically different behaviors. ",
+      "old_image": "/images/portfolio/full/motion/1.png",
+      "new_image": "assets/portfolio/full/motion/1.png",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=RmrlbKrVRAk"
+    },
+    {
+      "project": "Driving Behavior",
+      "destination": "#driving-behavior",
+      "item_index": 2,
+      "title": "Overview of several drivers' driving behavior",
+      "description": "",
+      "old_image": "/images/portfolio/full/motion/1.png",
+      "new_image": "assets/portfolio/full/motion/1.png",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Driving Behavior",
+      "destination": "#driving-behavior",
+      "item_index": 3,
+      "title": "Side-by-side visual comparison of two drivers",
+      "description": "",
+      "old_image": "/images/portfolio/full/motion/2.png",
+      "new_image": "assets/portfolio/full/motion/2.png",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Driving Behavior",
+      "destination": "#driving-behavior",
+      "item_index": 4,
+      "title": "Side-by-side visual comparison of two drivers with different sorting order of the trips",
+      "description": "",
+      "old_image": "/images/portfolio/full/motion/3.png",
+      "new_image": "assets/portfolio/full/motion/3.png",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Driving Behavior",
+      "destination": "#driving-behavior",
+      "item_index": 5,
+      "title": "Compare behavior by days",
+      "description": "",
+      "old_image": "/images/portfolio/full/motion/4.png",
+      "new_image": "assets/portfolio/full/motion/4.png",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "A Visual Approach for Name Disambiguation in Coauthorship Networks",
+      "destination": "#name-disambiguation",
+      "item_index": 1,
+      "title": "A Visual Approach for Name Disambiguation in Coauthorship Networks",
+      "description": "",
+      "old_image": "/images/portfolio/full/name/1.png",
+      "new_image": "assets/portfolio/full/name/1.png",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=g1fcURD7Fh0"
+    },
+    {
+      "project": "A Visual Approach for Name Disambiguation in Coauthorship Networks",
+      "destination": "#name-disambiguation",
+      "item_index": 2,
+      "title": "UI for name disambiguation problem",
+      "description": "",
+      "old_image": "/images/portfolio/full/name/1.png",
+      "new_image": "assets/portfolio/full/name/1.png",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Comparative driving behavior visualization",
+      "destination": "#comparative-driving",
+      "item_index": 1,
+      "title": "Comparative driving behavior visualization.",
+      "description": "",
+      "old_image": "/images/portfolio/full/drivingBehavior/1.png",
+      "new_image": "assets/portfolio/full/drivingBehavior/1.png",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=gxUq2Q7e7Tg"
+    },
+    {
+      "project": "Comparative driving behavior visualization",
+      "destination": "#comparative-driving",
+      "item_index": 2,
+      "title": "Driving behavior exploration UI.",
+      "description": "The goal of this project is to analyze driving behavior and visually compare them by using motion.",
+      "old_image": "/images/portfolio/full/drivingBehavior/1.png",
+      "new_image": "assets/portfolio/full/drivingBehavior/1.png",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Marine animal migration visualization",
+      "destination": "#marine-migration",
+      "item_index": 1,
+      "title": "Explore and marine animal behavior by integrating environmental data.",
+      "description": "",
+      "old_image": "/images/portfolio/full/topp/1.png",
+      "new_image": "assets/portfolio/full/topp/1.png",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Interactive visualization of Electric Vehicle Trajectory",
+      "destination": "#electric-vehicle",
+      "item_index": 1,
+      "title": "Interactive visualization of Electric Vehicle Trajectory",
+      "description": "",
+      "old_image": "/images/portfolio/full/trajectory/1.png",
+      "new_image": "assets/portfolio/full/trajectory/1.png",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=fUmWuGor-Lw"
+    },
+    {
+      "project": "Interactive visualization of Electric Vehicle Trajectory",
+      "destination": "#electric-vehicle",
+      "item_index": 2,
+      "title": "Oveview of all the trajectories",
+      "description": "",
+      "old_image": "/images/portfolio/full/trajectory/1.png",
+      "new_image": "assets/portfolio/full/trajectory/1.png",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Interactive visualization of Electric Vehicle Trajectory",
+      "destination": "#electric-vehicle",
+      "item_index": 3,
+      "title": "Visualize speed and fuel consumption",
+      "description": "",
+      "old_image": "/images/portfolio/full/trajectory/2.png",
+      "new_image": "assets/portfolio/full/trajectory/2.png",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Interactive visualization of Electric Vehicle Trajectory",
+      "destination": "#electric-vehicle",
+      "item_index": 4,
+      "title": "Visualize multi-dimension trajectory data with stop detection",
+      "description": "",
+      "old_image": "/images/portfolio/full/trajectory/3.png",
+      "new_image": "assets/portfolio/full/trajectory/3.png",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Storyline visualization",
+      "destination": "#storyline",
+      "item_index": 1,
+      "title": "An Efficient Framework for Generating Storyline Visualizations from Streaming Data",
+      "description": "",
+      "old_image": "/images/portfolio/full/storyline/1.png",
+      "new_image": "assets/portfolio/full/storyline/1.png",
+      "type": "video",
+      "video_url": "https://vimeo.com/136210767"
+    },
+    {
+      "project": "Storyline visualization",
+      "destination": "#storyline",
+      "item_index": 2,
+      "title": "Storyline visualization by D3.js",
+      "description": "",
+      "old_image": "/images/portfolio/full/storyline/1.png",
+      "new_image": "assets/portfolio/full/storyline/1.png",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Storyline visualization",
+      "destination": "#storyline",
+      "item_index": 3,
+      "title": "Storyline visualization for Minecraft survival mode",
+      "description": "",
+      "old_image": "/images/portfolio/full/storyline/2.png",
+      "new_image": "assets/portfolio/full/storyline/2.png",
+      "type": "image",
+      "video_url": null
+    },
+    {
+      "project": "Storyline visualization",
+      "destination": "#storyline",
+      "item_index": 4,
+      "title": "Storyline visualization for Enron dataset to detect groups",
+      "description": "",
+      "old_image": "/images/portfolio/full/storyline/3.png",
+      "new_image": "assets/portfolio/full/storyline/3.png",
+      "type": "image",
+      "video_url": null
+    }
+  ],
+  "publications": [
+    {
+      "title": "A Study of using Motion for Comparative Visualization.",
+      "authors": "Chien-Hsin Hsueh, Jia-Kai Chou, Kwan-Liu Ma",
+      "venue": "IEEE Pacific Visualization Symposium, 2015"
+    },
+    {
+      "title": "Fostering Comparisons: Designing an Interactive Exhibit that Visualizes Marine Animal Behaviors.",
+      "authors": "Chien-Hsin Hsueh, Jacqueline Chu, Kwan-Liu Ma, Joyce Ma, Jennifer Frazier",
+      "venue": "IEEE Pacific Visualization Symposium, 2015"
+    },
+    {
+      "title": "An Efficient Framework for Generating Storyline Visualizations from Streaming Data.",
+      "authors": "Yuzuru Tanahashi, Chien-Hsin Hsueh, Kwan-Liu Ma",
+      "venue": "IEEE Transaction on Visualization and Computer Graphics, 2015"
+    },
+    {
+      "title": "Intrusive test automation with failed test case clustering. (Outstanding research award)",
+      "authors": "Chien-Hsin Hsueh, Yung-Pin Cheng, Wei-Cheng Pan",
+      "venue": "In Proceedings of APSEC‘2011, Ho Chi Minh, Vietnam"
+    },
+    {
+      "title": "xDIVA: automatic animation between debugging break points.",
+      "authors": "Yung-Pin Cheng, Han-Yi Tsai, Chih-Shun Wang, Chien-Hsin Hsueh",
+      "venue": "Proceedings of SOFTVIS'2010. pp. 221~222, Utah, USA"
+    }
+  ],
+  "legacy_work_references": [
+    {
+      "label": "'Michelangelo'",
+      "url": "https://eng.uber.com/michelangelo-machine-learning-platform/"
+    },
+    {
+      "label": "Graph.gl",
+      "url": "https://graph.gl"
+    },
+    {
+      "label": "interactive visualization",
+      "url": "https://www.youtube.com/watch?v=psGvUuYxEbM"
+    },
+    {
+      "label": "TOPP",
+      "url": "http://www.coml.org/projects/tagging-pacific-predators-topp.html"
+    },
+    {
+      "label": "exhibit",
+      "url": "https://www.exploratorium.edu/exhibits/mapping-migrations"
+    },
+    {
+      "label": "Kwan-Liu Ma",
+      "url": "https://www.cs.ucdavis.edu/~ma/"
+    },
+    {
+      "label": "VIDI",
+      "url": "https://vidi.cs.ucdavis.edu/"
+    },
+    {
+      "label": "Driving Behavior Visualization",
+      "url": "https://www.youtube.com/watch?v=RmrlbKrVRAk"
+    },
+    {
+      "label": "Interactive Visualization of Electric Vehicle Trajectory",
+      "url": "https://www.youtube.com/watch?v=gxUq2Q7e7Tg"
+    },
+    {
+      "label": "Incremental Storyline Layout Algorithms for Streaming Data",
+      "url": "https://vimeo.com/136210767"
+    },
+    {
+      "label": "Name disambiguation exploratory",
+      "url": "https://www.youtube.com/watch?v=g1fcURD7Fh0"
+    }
+  ],
+  "exhibit_resources": [
+    "https://javid.me/explo/paper.pdf",
+    "https://javid.me/explo/slides.pdf",
+    "https://javid.me/explo/video.mp4"
+  ]
+}
