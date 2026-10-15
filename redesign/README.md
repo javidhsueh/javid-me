@@ -1,20 +1,20 @@
 # Javid — personal website candidate
 
-Isolated, unpublished source on `redesign/static-portfolio` (branch name predates user's clarification). Current direction is a designed personal identity website, not a portfolio or case study collection. Existing root site and GitHub Pages remain unchanged.
+Isolated, unpublished source on `redesign/static-portfolio` (branch name predates user's clarification). Current direction is an identity-led personal website that preserves the complete existing curated works and videos. Existing root site and GitHub Pages remain unchanged.
 
 ## Design
 
-A memorable digital calling card: large Javid Hsueh typography; verified Staff Engineer at Apple role; brief frontend/data visualization interests; an original generative illustration; short bio; GitHub and LinkedIn links. No invented Apple work, projects, client metrics, personal hobbies, dates, or contacts.
+A memorable digital calling card: large Javid Hsueh typography; verified Staff Engineer at Apple role; brief frontend/data visualization interests; an original generative illustration; short bio; GitHub and LinkedIn links; the complete original works, media and research collection. No invented Apple work, projects, client metrics, personal hobbies, dates, or contacts.
 
 Deep blue ink #101f2a, cool paper #f5f7f8, slate #20303b, muted slate #596874, sea glass #6de0d0, ochre #e8b970. Manrope headings, DM Sans body. Fonts self-hosted with SIL Open Font licenses. No external requests on initial page load.
 
-Original SVG illustration: Connections, Flow, Structure layout controls; slow ambient motion; pause/resume; OS reduced motion; hidden-tab and offscreen pause; low-power/save-data defaults. The illustration is clearly described as generated artwork, not research data. Static content and social links work without JavaScript; controls are hidden until enhanced.
+Original SVG illustration: Connections, Flow, Structure layout controls; brief settling entrance motion; OS reduced motion; hidden-tab and offscreen pause; low-power/save-data defaults. The illustration is clearly described as generated artwork, not research data. Static content and social links work without JavaScript; controls are hidden until enhanced.
 
 Reviewed and applied official Anthropic frontend-design skill: subject-specific plan, compact token system, one expressive element, restrained motion, screenshot critique. Official OpenAI Playwright skill installed for verification. Both installed under ~/.codex/skills and available next turn.
 
 ## Build
 
-`npm run build` creates ignored `dist/`. Build needs Node only, with no npm package dependencies. Static HTML/CSS/JS and fonts are copied. Old portfolio draft and portfolio imagery are deliberately excluded from production build.
+`npm run build` creates ignored `dist/`. Build needs Node only, with no npm package dependencies. Static HTML/CSS/JS and fonts are copied. All original portfolio imagery is included in the production build. The superseded work-archive-draft.html is excluded; the complete restored collection is directly accessible in index.html.
 
 Temporary loopback preview: `python3 -m http.server 8795 --bind 127.0.0.1 --directory dist` (no persistent service installed).
 
@@ -28,7 +28,7 @@ Legacy repo is compiled React/Create React App + Webpack + jQuery output, withou
 
 Apple title is user-confirmed. Background at Uber/Exploratorium and UC Davis education comes from existing public site's source map. Specific date ranges, Apple team/project details, phone/street address, old resume PDF and analytics omitted.
 
-`work-archive-draft.html` preserves the earlier portfolio candidate locally with existing public images and citations. It is unlinked from homepage and excluded from build. It is optional future source material, not a release requirement. Its bibliography and image rights would need editorial verification if reused.
+`work-archive-draft.html` is a superseded local design draft, excluded from build. The current homepage directly includes the complete original collection. WORKS-INVENTORY.md and content-inventory.json audit every preserved project, media item, caption, description, publication, and reference.
 
 LinkedIn could not be publicly fetched (no bypass attempted); link is exactly user's supplied profile. No guessed email added. No additional content clarification is required for this personal homepage candidate.
 
@@ -38,7 +38,7 @@ No live DNS, hosting, Cloudflare, GitHub Pages, account profile, Kids or Control
 
 ## Latest correction: retain all curated work
 
-The homepage remains identity-led and now directly includes all 8 original projects, all 27 original media entries, all 6 original video URLs, 5 publications and 11 related legacy links. WORKS-INVENTORY.md and content-inventory.json are the complete old→new audit. The previous statement that work is excluded from the production build is superseded: all portfolio images are now copied into dist, and the works section is an integral part of index.html. Video links are click-to-open with local posters; there are no autoplay embeds or external requests before clicking.
+The homepage remains identity-led and now directly includes all 8 original projects, all 27 original media entries, all 6 original video URLs, 5 publications and 11 related legacy links. WORKS-INVENTORY.md and content-inventory.json are the complete old→new audit. All portfolio images are copied into dist, and the works section is an integral part of index.html. Video links are click-to-open with local posters; there are no autoplay embeds or external requests before clicking.
 
 The user explicitly removed the visible motion pause control. It has been removed. The original hero entrance now settles after approximately 1.8 seconds; layout buttons remain user-driven. Reduced-motion, low-power, offscreen and hidden-tab behavior remain supported.
 
