@@ -1,45 +1,30 @@
-# Javid — personal website candidate
+# Javid — personal website
 
-Isolated, unpublished source on `redesign/static-portfolio` (branch name predates user's clarification). Current direction is an identity-led personal website that preserves the complete existing curated works and videos. Existing root site and GitHub Pages remain unchanged.
+Source: https://github.com/javidhsueh/javid-me, production branch `redesign/static-portfolio`.
+Live: https://javid.me. Cloudflare Worker `javid-website` serves the site; www redirects to the apex with path and query preserved.
 
-## Design
+## Design and content
 
-A memorable digital calling card: large Javid Hsueh typography; verified Staff Engineer at Apple role; brief frontend/data visualization interests; an original generative illustration; short bio; GitHub and LinkedIn links; the complete original works, media and research collection. No invented Apple work, projects, client metrics, personal hobbies, dates, or contacts.
+Identity-first layout with self-hosted Manrope and DM Sans, an original interactive SVG illustration, restrained CSS effects, and brief entrance motion. Connections, Flow and Structure controls support keyboard use. Reduced-motion, offscreen, background-tab and low-power preferences are respected. No external requests occur on initial homepage load; video links open only on click.
 
-Deep blue ink #101f2a, cool paper #f5f7f8, slate #20303b, muted slate #596874, sea glass #6de0d0, ochre #e8b970. Manrope headings, DM Sans body. Fonts self-hosted with SIL Open Font licenses. No external requests on initial page load.
+The complete original collection remains: 8 works, 27 media entries, 6 video links, 5 publications and 11 related references. `WORKS-INVENTORY.md` and `content-inventory.json` audit the collection. Career dates and Apple role descriptions were supplied by the user from LinkedIn. Private contacts and the obsolete resume are excluded.
 
-Original SVG illustration: Connections, Flow, Structure layout controls; brief settling entrance motion; OS reduced motion; hidden-tab and offscreen pause; low-power/save-data defaults. The illustration is clearly described as generated artwork, not research data. Static content and social links work without JavaScript; controls are hidden until enhanced.
+## Build and deployment
 
-Reviewed and applied official Anthropic frontend-design skill: subject-specific plan, compact token system, one expressive element, restrained motion, screenshot critique. Official OpenAI Playwright skill installed for verification. Both installed under ~/.codex/skills and available next turn.
+From the repository root:
 
-## Build
+```
+npm --prefix redesign run build
+npm --prefix redesign test
+npx --yes wrangler@4.92.0 deploy --config redesign/wrangler.jsonc
+```
 
-`npm run build` creates ignored `dist/`. Build needs Node only, with no npm package dependencies. Static HTML/CSS/JS and fonts are copied. All original portfolio imagery is included in the production build. The superseded work-archive-draft.html is excluded; the complete restored collection is directly accessible in index.html.
+The build uses Node with zero npm dependencies, generates ignored `dist/` and release metadata, and preserves research paper and slide downloads. The original large `/explo/video.mp4` is stored in private R2, served through the Worker's exact media route with HEAD, byte-range and ETag support. The configuration retains the two approved production custom domains on subsequent deployments.
 
-Temporary loopback preview: `python3 -m http.server 8795 --bind 127.0.0.1 --directory dist` (no persistent service installed).
+`/_health` reports actual source revision, artifact digest, observation time and media readiness. Monitoring registration is coordinated with the designated Control Web writer.
 
-## Repository/hosting evidence
+## Attribution and history
 
-https://github.com/javidhsueh/javidhsueh.github.io ; baseline master 03b4161. GitHub Pages read-only API confirms legacy build from master /, cname javid.me, HTTPS enforced, status built. This repository was cloned into the task workspace; no matching existing local source checkout was found in the checked app/site locations.
+The original compiled React/Webpack/jQuery homepage remains in the repository root for history. Its Ceevee/Styleshout and Tim Baker attribution remains intact. The new design is original; legacy research pages retain their existing attribution. Font license files are included alongside self-hosted fonts.
 
-Legacy repo is compiled React/Create React App + Webpack + jQuery output, without package.json or AGENTS.md. Source maps contain original components and public content. Existing CSS identifies Ceevee/Styleshout; compiled footer credits Tim Baker and Styleshout. No governing standalone template license found. Existing root legacy code and attribution remain intact; candidate code is original and reuses none of the old template code.
-
-## Content and preserved draft
-
-Apple title is user-confirmed. Background at Uber/Exploratorium and UC Davis education comes from existing public site's source map. Specific date ranges, Apple team/project details, phone/street address, old resume PDF and analytics omitted.
-
-`work-archive-draft.html` is a superseded local design draft, excluded from build. The current homepage directly includes the complete original collection. WORKS-INVENTORY.md and content-inventory.json audit every preserved project, media item, caption, description, publication, and reference.
-
-LinkedIn could not be publicly fetched (no bypass attempted); link is exactly user's supplied profile. No guessed email added. No additional content clarification is required for this personal homepage candidate.
-
-## Boundaries before migration
-
-No live DNS, hosting, Cloudflare, GitHub Pages, account profile, Kids or Control changes. Cloudflare target, apex cutover, old-path preservation, redirects, security headers, caching, rollback and release authority need concrete review before deployment. New production monitoring belongs to the designated Control Web sole writer.
-
-## Latest correction: retain all curated work
-
-The homepage remains identity-led and now directly includes all 8 original projects, all 27 original media entries, all 6 original video URLs, 5 publications and 11 related legacy links. WORKS-INVENTORY.md and content-inventory.json are the complete old→new audit. All portfolio images are copied into dist, and the works section is an integral part of index.html. Video links are click-to-open with local posters; there are no autoplay embeds or external requests before clicking.
-
-The user explicitly removed the visible motion pause control. It has been removed. The original hero entrance now settles after approximately 1.8 seconds; layout buttons remain user-driven. Reduced-motion, low-power, offscreen and hidden-tab behavior remain supported.
-
-Exhibit paper, slides and the 46 MB video remain linked at their original live /explo/ paths. Preserve those resources during eventual migration; the downloadable video's size requires a suitable storage/serving plan. No live change was made.
+Official frontend-design and Playwright skills were installed and used during design and verification.
