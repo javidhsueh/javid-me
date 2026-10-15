@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
+  "name": "javid-website",
+  "account_id": "ff8e252ce35c3e27bbe01b16f9197de2",
+  "main": "worker/index.mjs",
+  "compatibility_date": "2026-05-22",
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {"directory":"./dist","binding":"ASSETS","run_worker_first":true,"not_found_handling":"none"},
+  "r2_buckets": [{"binding":"MEDIA","bucket_name":"javid-website-media"}],
+  "observability": {"enabled":true},
+  "routes": []
+}
